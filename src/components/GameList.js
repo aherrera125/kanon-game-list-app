@@ -28,7 +28,7 @@ const GameList = () => {
 
     return (
         <div className="App centerElement">
-            <input type='text' placeholder='Type kind of game' value={gameText} onChange={handleSearch}></input>
+            <input type='text' placeholder='Type kind of game' value={gameText} onChange={handleSearch} className="search-box"></input>
             <h1>Game List:</h1>
             <ul>
                 {gamesToDisplay.map((item) => (
